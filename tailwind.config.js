@@ -52,7 +52,8 @@ export default {
         // firstColor: "#e1b254",
         firstColor: '#d8ab4e',
         secondColor: '#040404',
-        firstColor2: '#3d3d3f'
+        firstColor2: '#3d3d3f',
+        costumWhite: 'rgb(252 254 255)'
       },
       keyframes: {
         wiggle: {
@@ -88,4 +89,4 @@ export default {
     }
   },
   plugins: []
-}
+};

@@ -54,29 +54,45 @@ const onSelect = (index) =>
               <div class="flex flex-col h8:flex-row">
                 <div class="flex-none h8:flex-1">
                   <div class="cards p-4 flex flex-col gap-4 font-bold tracking-tight">
-                    <div class="bg-representation/10 cursor-pointer" @click="() => onSelect(0)">
+                    <div
+                      class="CostumCard cursor-pointer"
+                      @click="() => onSelect(0)"
+                      :class="[{ active: selectedIndex === 0 }]"
+                    >
                       <div class="acronym text-2xl">GIEIP</div>
                       <div class="name font-normal">
                         General information for the Exchange and Internship Program
                       </div>
                     </div>
-                    <div class="bg-diversity/10 cursor-pointer" @click="() => onSelect(1)">
+                    <div
+                      class="CostumCard cursor-pointer"
+                      @click="() => onSelect(1)"
+                      :class="[{ active: selectedIndex === 1 }, 'text-[var(--myWhite)]']"
+                    >
                       <div class="acronym font-2xl">EP</div>
                       <div class="name font-normal">Exchange Program</div>
                     </div>
-                    <div class="bg-innovation/10 cursor-pointer" @click="() => onSelect(2)">
+                    <div
+                      class="CostumCard cursor-pointer"
+                      @click="() => onSelect(2)"
+                      :class="[{ active: selectedIndex === 2 }, 'text-[var(--myWhite)]']"
+                    >
                       <div class="acronym font-2xl">IP</div>
                       <div class="name font-normal">Internship Program</div>
                     </div>
-                    <div class="bg-communication/10 cursor-pointer" @click="() => onSelect(3)">
+                    <div
+                      class="CostumCard cursor-pointer"
+                      @click="() => onSelect(3)"
+                      :class="[{ active: selectedIndex === 3 }, 'text-[var(--myWhite)]']"
+                    >
                       <div class="acronym font-2xl">ANE</div>
                       <div class="name font-normal">Attending Networking Events</div>
                     </div>
                   </div>
                 </div>
-                <div class="flex p-4 gap-4 flex-shrink-0 w-2/3">
+                <div class="flex p-4 gap-4 flex-shrink-0 md:w-2/3">
                   <div class="details">
-                    <div v-if="selectedIndex === 0" class="page AQISS">
+                    <div v-if="selectedIndex === 0" class="page AQISS CostumCard p-8">
                       <h2>General information for the Exchange and Internship Program (GIEIP)</h2>
                       <p>
                         The funding available will depend on the country of the student's host
@@ -143,7 +159,7 @@ const onSelect = (index) =>
                       </div>
                     </div>
 
-                    <div v-if="selectedIndex === 1" class="page AQT">
+                    <div v-if="selectedIndex === 1" class="page AQT CostumCard p-8">
                       <h2>Advocates for Quantum Technology (AQT)</h2>
                       <p>
                         In 2025, UNESCO will dedicate an International Year of Quantum Science and
@@ -203,7 +219,7 @@ const onSelect = (index) =>
                         </div>
                       </div>
                     </div>
-                    <div v-if="selectedIndex === 2" class="page EFEQT">
+                    <div v-if="selectedIndex === 2" class="page EFEQT CostumCard p-8">
                       <h2>
                         Empowering the Future Experts in Quantum Science and Technology for Europe
                         (EFEQT)
@@ -240,7 +256,7 @@ const onSelect = (index) =>
                         <img src="../../../assets/images/PSL.png" alt="" />
                       </div>
                     </div>
-                    <div v-if="selectedIndex === 3" class="page QNC">
+                    <div v-if="selectedIndex === 3" class="page QNC CostumCard p-8">
                       <h2>Network for Quantum Computing (QNC)</h2>
                       <p>
                         NQC is a good fit for students interested in quantum computing and quantum
@@ -348,13 +364,12 @@ a {
  duration-200;
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s ease;
+.CostumCard {
+  @apply border-0 border-gray-400  rounded-3xl overflow-hidden  bg-gradient-to-b from-[#fff] to-[#F4F7FA] shadow-2xl hover:shadow-lg transition-all duration-300 ease-linear;
+  background: url('../images/checkers.png') center / cover no-repeat;
 }
 
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
+.active {
+  @apply text-costumWhite border-gray-900 !bg-gradient-to-tr from-gray-950 to-gray-700 shadow-lg hover:shadow-2xl transition-all duration-300 ease-linear z-10;
 }
 </style>
