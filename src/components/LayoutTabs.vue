@@ -170,111 +170,98 @@ const onSelect = (index) =>
                     </div>
 
                     <div v-if="selectedIndex === 1" class="page AQT CostumCard p-8">
-                      <h2>Advocates for Quantum Technology (AQT)</h2>
+                      <h2>Exchange Program (EP)</h2>
                       <p>
-                        In 2025, UNESCO will dedicate an International Year of Quantum Science and
-                        Technology. This field is growing at an incredible rate, and it will fall to
-                        us as Quantum Technologists to ensure that the public and other scientists
-                        have an understanding of and fascination for QT.
+                        The DigiQ Exchange Program enables students to either undertake exchange semesters at partner institutions or have access to thesis projects from partner universities.
+
                       </p>
+                      
                       <p>
-                        That is where you come in! As an advocate for Quantum Technology, you will
-                        be involved in maj international QT events such as World Quantum Day,
-                        Italian Quantum Weeks, Pint of Science, an many more, spreading the word of
-                        QT.
+                        How to apply:
                       </p>
-                      <p>
-                        Staff in the AQT network include top researchers in fields of Quantum
-                        Simulation & Communication, as well as spearheading Europe’s education and
-                        outreach initiatives such as Quantum Technologies Education for Everyone
-                        (QuTE4E).
-                      </p>
-                      <h3>Events</h3>
-                      <p>
-                        Events in this network will orient around major international activities:
-                        Italian Quantum Wee (taking place across 17 cities in Italy over 6 weeks),
-                        and World Quantum Day (annually over 4 events).
-                      </p>
-                      <p>
-                        Science Melting Pot will organise several events in Aarhus, Denmark, such as
-                        “Pitcher of Quantum”, a several day Quantum Festival, and “Pint of Science”,
-                        a global science festival taking place in local bars and cafes.
-                      </p>
-                      <p>
-                        There are many more opportunities to be involved in events, both attending
-                        and organising, and this network has travel funding available for up t two
-                        events per person per year!
-                      </p>
-                      <h3>Organisers and Coordinators</h3>
-                      <p>Simon Goorney, Aarhus University (simon.goorney@mgmt.au.dk)</p>
-                      <p>
-                        Co-coordinator, Yasser Omar, Instituto Superior Técnico
-                        (yasser.omar@tecnico.ulisboa.pt)
-                      </p>
+                    <ul>
+                      <li>
+                        Exchange opportunities are available flexibly on a case-by-case basis, therefore students should contact their local DigiQ Coordinator to discuss possibilities, how to apply, eligibility rules and selection processes.
+
+
+                      </li>
+                      <ul class="list-circle">
+                        Documentation that may be required:
+                        <li class="list-disc">
+                          Motivation letter stating the value of the exchange for themselves and for the network (justification for funding)
+
+                        </li>
+                        <li>CV</li>
+                        <li>Course plan + Learning Agreement</li>
+                        <li>Please check the information on the host institution for specific additionally required documents and information with the local coordinator</li>
+
+                      </ul>
+                    </ul>
                     </div>
                     <div v-if="selectedIndex === 2" class="page EFEQT CostumCard p-8">
                       <h2>
-                        Empowering the Future Experts in Quantum Science and Technology for Europe
-                        (EFEQT)
+                        Internship Program
+                        (IP)
                       </h2>
                       <p>
-                        EFEQT is a one year complementary training programme for students performing
-                        their Master studies at a European University. It provides accredited
-                        training modules and networking opportunities within the DigiQ Master
-                        program.
+                        The DQ-Internship program will run year-round and will be based at nodes in the research and industry centres of the Munich Quantum Valley (TUM, LMU), the Catalonia Quantum Community (ICFO, UB, ICN2), the Cluster of Excellence Matter and Light for Quantum Computing (Aachen) and the Dutch Quantum Delta (AUAS).
                       </p>
                       <p>
-                        Enhance your Masters degree with international experience leading towards a
-                        PhD and be part of a pan-European community preparing you for leadership
-                        roles in the emerging quantum workforce.
+                        For the first round of the internship program, applications must be submitted between 22nd January and 1st April 2024.
+
                       </p>
-                      <h3>Events</h3>
-                      <ul>
-                        <li>Quantum Ideas Factory (science hackathon) in Paris in October 2023</li>
-                        <li>Monthly online meetups with top experts from industry and academia</li>
-                      </ul>
-                      <h3>Organisers and Coordinators</h3>
-                      <p>Coordinator: Shannon Whitlock (Strasbourg), whitlock@unistra.fr</p>
                       <p>
-                        Co-coordinator: Martin Gärttner (Heidelberg),
-                        martin.gaerttner@kip.uni-heidelberg.de
+                        How to apply:
+
                       </p>
-                      <p>Meetups: Rianne Lous (Eindhoven), r.s.lous@tue.nl</p>
-                      <h3>Core Partners</h3>
-                    </div>
-                    <div v-if="selectedIndex === 3" class="page QNC CostumCard p-8">
-                      <h2>Network for Quantum Computing (QNC)</h2>
-                      <p>
-                        NQC is a good fit for students interested in quantum computing and quantum
-                        information theory Topics covered in NQC include:
-                      </p>
+                      
                       <ul>
                         <li>
-                          Theoretical & Experimental Quantum Computing
-                          <ul>
-                            <li>Quantum algorithms</li>
-                            <li>Software applications</li>
-                            <li>Hardware architectures</li>
-                            <li>Methods in Quantum Information Theory</li>
-                          </ul>
+                          Internship opportunities will be advertised through DigiQ Track, via the DigiQ networks, and by local coordinators
+
                         </li>
-                        <li>Industrial applications & local Start-Ups</li>
-                        <li>Entrepreneurship</li>
+                        <ul>
+                          Documentation required:
+                          <li>
+                            Motivation letter stating the value of the exchange for themselves and for the network (justification for funding)
+
+                          </li>
+                          <li>CV</li>
+                          <li>Statement of support from the host group</li>
+
+                          <li>Please check the information on the host institution for specific additionally required documents and information with the local coordinator.</li>
+
+                        </ul>
                       </ul>
-                      <h3>Events</h3>
-                      <ul>
-                        <li>Scientific seminars & workshops</li>
-                        <li>Outreach projects</li>
-                        <li>Internship matchmaking</li>
-                        <li>Platforms for Quantum Technologies School (Aachen, March)</li>
-                        <li>QMATH Masterclass (Copenhagen, August)</li>
-                      </ul>
-                      <h3>Organisers and Coordinators</h3>
+                      
+                      
+                    </div>
+                    <div v-if="selectedIndex === 3" class="page QNC CostumCard p-8">
+                      <h2>Attending Networking Events (ANE)</h2>
                       <p>
-                        Coordinator: Albert H. Werner, CPH (werner@math.ku.dk) Co-coordinator: Lisa
-                        Otten, RWTH (l.otten@physik.rwth-aachen.de)
+                        Each student can receive funding to attend up to two in-person networking events per year independent of the paying institution. Therefore previous funding received by the student must be disclosed during the application process.
+
                       </p>
-                      <h3>Core Partners</h3>
+                        <p>
+                          Funding available:
+
+                        </p>
+                        <p>Students will be able to claim for travel expenses and accommodation.</p>
+                        <p>How to apply:</p>
+                      <ul>
+                        <li>
+                          Networking events will be advertised by the institution hosting the event to the relevant DigiQ networks.
+
+                        </li>
+                        <li>
+                          Event host will indicate if funding is available from them to attend the event, and the application process, eligibility rules and selection process.
+
+                        </li>
+                        <li>
+                          If no funding is available from the event host DigiQ students should contact their local coordinator to enquire about available funding to attend the networking event, the application process, eligibility rules and selection process.
+                        </li>
+                      </ul>
+                      
                     </div>
                   </div>
                 </div>
