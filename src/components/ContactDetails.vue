@@ -6,7 +6,7 @@
         <template #body>
           <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
             <!-- Title -->
-            <p class="mb-6">Further Useful Information</p>
+            <h3 class="mb-6">Further Useful Information</h3>
             <div class="mb-10 lg:mb-14">
               <h2>Contact Details for Local Coordinators</h2>
             </div>

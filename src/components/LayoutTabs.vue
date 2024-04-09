@@ -92,7 +92,7 @@ const onSelect = (index) =>
                 </div>
                 <div class="flex p-4 gap-4 flex-shrink-0 md:w-2/3">
                   <div class="details">
-                    <div v-if="selectedIndex === 0" class="page AQISS CostumCard p-8">
+                    <div v-if="selectedIndex === 0" class="page GIEIP CostumCard p-8">
                       <h2>General information for the Exchange and Internship Program (GIEIP)</h2>
                       <p>
                         The funding available will depend on the country of the student's host
@@ -169,99 +169,101 @@ const onSelect = (index) =>
                       </li>
                     </div>
 
-                    <div v-if="selectedIndex === 1" class="page AQT CostumCard p-8">
+                    <div v-if="selectedIndex === 1" class="page EP CostumCard p-8">
                       <h2>Exchange Program (EP)</h2>
                       <p>
-                        The DigiQ Exchange Program enables students to either undertake exchange semesters at partner institutions or have access to thesis projects from partner universities.
-
+                        The DigiQ Exchange Program enables students to either undertake exchange
+                        semesters at partner institutions or have access to thesis projects from
+                        partner universities.
                       </p>
-                      
-                      <p>
-                        How to apply:
-                      </p>
-                    <ul>
-                      <li>
-                        Exchange opportunities are available flexibly on a case-by-case basis, therefore students should contact their local DigiQ Coordinator to discuss possibilities, how to apply, eligibility rules and selection processes.
 
-
-                      </li>
-                      <ul class="list-circle">
+                      <p class="font-semibold">How to apply:</p>
+                      <ul>
+                        Exchange opportunities are available flexibly on a case-by-case basis,
+                        therefore students should contact their local DigiQ Coordinator to discuss
+                        possibilities, how to apply, eligibility rules and selection processes.
+                      </ul>
+                      <ul class="font-semibold">
                         Documentation that may be required:
+                      </ul>
+                      <ul>
                         <li class="list-disc">
-                          Motivation letter stating the value of the exchange for themselves and for the network (justification for funding)
-
+                          Motivation letter stating the value of the exchange for themselves and for
+                          the network (justification for funding)
                         </li>
                         <li>CV</li>
                         <li>Course plan + Learning Agreement</li>
-                        <li>Please check the information on the host institution for specific additionally required documents and information with the local coordinator</li>
-
+                        <li>
+                          Please check the information on the host institution for specific
+                          additionally required documents and information with the local coordinator
+                        </li>
                       </ul>
-                    </ul>
                     </div>
-                    <div v-if="selectedIndex === 2" class="page EFEQT CostumCard p-8">
-                      <h2>
-                        Internship Program
-                        (IP)
-                      </h2>
+                    <div v-if="selectedIndex === 2" class="page IP CostumCard p-8">
+                      <h2>Internship Program (IP)</h2>
                       <p>
-                        The DQ-Internship program will run year-round and will be based at nodes in the research and industry centres of the Munich Quantum Valley (TUM, LMU), the Catalonia Quantum Community (ICFO, UB, ICN2), the Cluster of Excellence Matter and Light for Quantum Computing (Aachen) and the Dutch Quantum Delta (AUAS).
+                        The DQ-Internship program will run year-round and will be based at nodes in
+                        the research and industry centres of the Munich Quantum Valley (TUM, LMU),
+                        the Catalonia Quantum Community (ICFO, UB, ICN2), the Cluster of Excellence
+                        Matter and Light for Quantum Computing (Aachen) and the Dutch Quantum Delta
+                        (AUAS).
                       </p>
                       <p>
-                        For the first round of the internship program, applications must be submitted between 22nd January and 1st April 2024.
+                        For the first round of the internship program, applications must be
+                        submitted between 22nd January and 1st April 2024.
+                      </p>
+                      <p class="font-semibold">How to apply:</p>
 
-                      </p>
-                      <p>
-                        How to apply:
-
-                      </p>
-                      
+                      <ul>
+                        Internship opportunities will be advertised through DigiQ Track, via the
+                        DigiQ networks, and by local coordinators
+                      </ul>
+                      <ul class="font-semibold">
+                        Documentation required:
+                      </ul>
                       <ul>
                         <li>
-                          Internship opportunities will be advertised through DigiQ Track, via the DigiQ networks, and by local coordinators
-
+                          Motivation letter stating the value of the exchange for themselves and for
+                          the network (justification for funding)
                         </li>
-                        <ul>
-                          Documentation required:
-                          <li>
-                            Motivation letter stating the value of the exchange for themselves and for the network (justification for funding)
+                        <li>CV</li>
+                        <li>Statement of support from the host group</li>
 
-                          </li>
-                          <li>CV</li>
-                          <li>Statement of support from the host group</li>
-
-                          <li>Please check the information on the host institution for specific additionally required documents and information with the local coordinator.</li>
-
-                        </ul>
+                        <li>
+                          Please check the information on the host institution for specific
+                          additionally required documents and information with the local
+                          coordinator.
+                        </li>
                       </ul>
-                      
-                      
                     </div>
-                    <div v-if="selectedIndex === 3" class="page QNC CostumCard p-8">
+                    <div v-if="selectedIndex === 3" class="page ANE CostumCard p-8">
                       <h2>Attending Networking Events (ANE)</h2>
                       <p>
-                        Each student can receive funding to attend up to two in-person networking events per year independent of the paying institution. Therefore previous funding received by the student must be disclosed during the application process.
-
+                        Each student can receive funding to attend up to two in-person networking
+                        events per year independent of the paying institution. Therefore previous
+                        funding received by the student must be disclosed during the application
+                        process.
                       </p>
-                        <p>
-                          Funding available:
-
-                        </p>
-                        <p>Students will be able to claim for travel expenses and accommodation.</p>
-                        <p>How to apply:</p>
+                      <p>Funding available:</p>
+                      <p>Students will be able to claim for travel expenses and accommodation.</p>
+                      <p class="font-semibold">How to apply:</p>
                       <ul>
                         <li>
-                          Networking events will be advertised by the institution hosting the event to the relevant DigiQ networks.
-
+                          Networking events will be advertised by the institution hosting the event
+                          to the relevant DigiQ networks.
                         </li>
                         <li>
-                          Event host will indicate if funding is available from them to attend the event, and the application process, eligibility rules and selection process.
-
+                          Event host will indicate if funding is available from them to attend the
+                          event, and the application process, eligibility rules and selection
+                          process.
                         </li>
                         <li>
-                          If no funding is available from the event host DigiQ students should contact their local coordinator to enquire about available funding to attend the networking event, the application process, eligibility rules and selection process.
+                          If no funding is available from the event host DigiQ students should
+                          contact their local coordinator to enquire about available funding to
+                          attend the networking event, the application process, eligibility rules
+                          and selection process.
                         </li>
                       </ul>
-                      
                     </div>
                   </div>
                 </div>
