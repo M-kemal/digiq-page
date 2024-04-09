@@ -137,26 +137,6 @@ const onSelect = (index) =>
                           equivalent) either as stipend or as refund
                         </li>
                       </ul>
-                      <h3>Organisers and Coordinators</h3>
-                      <p>Aurél Gábris, gabris.aurel@fjfi.cvut.cz</p>
-                      <p>Jonatan Bohr Brask, jobb@fysik.dtu.dk</p>
-                      <img src="../../../assets/images/AQISS.png" alt="" />
-                      <h3>Core Partners</h3>
-                      <div class="logos">
-                        <img src="../../../assets/images/CTU.png" alt="" />
-                        <img src="../../../assets/images/DTU.png" alt="" />
-                        <img src="../../../assets/images/UPS.png" alt="" />
-                        <img src="../../../assets/images/UH.png" alt="" />
-                        <img src="../../../assets/images/UB.jpg" alt="" />
-                      </div>
-                      <div class="affiliated">
-                        <h3>Affiliated Partners</h3>
-                        <div class="logos">
-                          <img src="../../../assets/images/AlU.png" alt="" />
-                          <img src="../../../assets/images/I.png" alt="" />
-                          <img src="../../../assets/images/IDO.jpg" alt="" />
-                        </div>
-                      </div>
                     </div>
 
                     <div v-if="selectedIndex === 1" class="page AQT CostumCard p-8">
@@ -201,23 +181,6 @@ const onSelect = (index) =>
                         Co-coordinator, Yasser Omar, Instituto Superior Técnico
                         (yasser.omar@tecnico.ulisboa.pt)
                       </p>
-                      <img src="../../../assets/images/img1.png" alt="" />
-                      <h3>Core Partners</h3>
-                      <div class="logos">
-                        <img src="../../../assets/images/marchio_unipi_pant541_288.gif" alt="" />
-                        <img src="../../../assets/images/Aarhus_University_logo.svg.png" alt="" />
-                        <img src="../../../assets/images/SMP_transparent.6cb95fdc.png" alt="" />
-                        <img src="../../../assets/images/IST_A_RGB_POS.png" alt="" />
-                        <img src="../../../assets/images/PQI.png" alt="" />
-                        <img src="../../../assets/images/Deloitte_black.png" alt="" />
-                      </div>
-                      <div class="affiliated">
-                        <h3>Affiliated Partners</h3>
-                        <div class="logos">
-                          <img src="../../../assets/images/iqws.png" alt="" />
-                          <img src="../../../assets/images/logo_WQD_black.png" alt="" />
-                        </div>
-                      </div>
                     </div>
                     <div v-if="selectedIndex === 2" class="page EFEQT CostumCard p-8">
                       <h2>
@@ -248,13 +211,6 @@ const onSelect = (index) =>
                       </p>
                       <p>Meetups: Rianne Lous (Eindhoven), r.s.lous@tue.nl</p>
                       <h3>Core Partners</h3>
-                      <div class="logos">
-                        <img src="../../../assets/images/UniH.png" alt="" />
-                        <img src="../../../assets/images/US.png" alt="" />
-                        <img src="../../../assets/images/SU.png" alt="" />
-                        <img src="../../../assets/images/ENS.png" alt="" />
-                        <img src="../../../assets/images/PSL.png" alt="" />
-                      </div>
                     </div>
                     <div v-if="selectedIndex === 3" class="page QNC CostumCard p-8">
                       <h2>Network for Quantum Computing (QNC)</h2>
@@ -289,13 +245,6 @@ const onSelect = (index) =>
                         Otten, RWTH (l.otten@physik.rwth-aachen.de)
                       </p>
                       <h3>Core Partners</h3>
-                      <div class="logos">
-                        <img src="../../../assets/images/KU.png" alt="" />
-                        <img src="../../../assets/images/UAB.png" alt="" />
-                        <img src="../../../assets/images/RWTH.png" alt="" />
-                        <img src="../../../assets/images/LMU.png" alt="" />
-                        <img src="../../../assets/images/Quarks.png" alt="" />
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -365,11 +314,11 @@ a {
 }
 
 .CostumCard {
-  @apply border-0 border-gray-400  rounded-3xl overflow-hidden  bg-gradient-to-b from-[#fff] to-[#F4F7FA] shadow-2xl hover:shadow-lg transition-all duration-300 ease-linear;
+  @apply border border-transparent  rounded-3xl overflow-hidden  bg-gradient-to-b from-[#fff] to-[#F4F7FA] shadow-2xl hover:shadow-lg transition-all duration-300 ease-linear;
   background: url('../images/checkers.png') center / cover no-repeat;
 }
 
 .active {
-  @apply text-costumWhite border-gray-900 !bg-gradient-to-tr from-gray-950 to-gray-700 shadow-lg hover:shadow-2xl transition-all duration-300 ease-linear z-10;
+  @apply border border-gray-900  shadow-lg hover:shadow-2xl transition-all duration-300 ease-linear z-10;
 }
 </style>
