@@ -109,9 +109,9 @@ const onSelect = (index) =>
                         participation (Curricular vs Extracurricular mobility) and whether you need
                         to move to take part in the program (Living vs Non-living mobility).
                       </p>
-                      <p class="font-medium">
-                        Curricular mobility: in case you receive ECTS credits from the program :
-                      </p>
+                      <ul class="font-medium">
+                        Curricular mobility: in case you receive ECTS credits from the program
+                      </ul>
                       <ul>
                         <li>
                           Non-living mobility payment: in case you do not need to move to a new
@@ -123,20 +123,50 @@ const onSelect = (index) =>
                           equivalent) either as stipend or as refund
                         </li>
                       </ul>
-                      <p class="font-medium">
-                        Curricular mobility: in case you receive ECTS credits from the program :
-                      </p>
+                      <ul class="font-medium">
+                        Extracurricular mobility: in case you do not receive ECTS credits from the
+                        program
+                      </ul>
                       <ul>
                         <li>
-                          Non-living mobility payment: in case you do not need to move to a new
-                          address in order to take part in the program: up to 300 EUR monthly
-                        </li>
-                        <li>
-                          Living mobility payment: In case you do need to move to a new address in
-                          order to attend the program: payment up to regional maximum (full-time
-                          equivalent) either as stipend or as refund
+                          Payment up to the regional maximum (full-time equivalent) depending on
+                          payment capabilities of the paying institution.
                         </li>
                       </ul>
+                      <ul class="font-medium">
+                        Regional maximum financial support that correspond to a full-time equivalent
+                        for the internship and exchange program:
+                      </ul>
+                      <ul>
+                        <li>
+                          Up to 900 EUR per month for group 1 countries (Destinations: Denmark,
+                          Finland, Iceland, Ireland, Luxembourg, Sweden, United Kingdom,
+                          Liechtenstein, Norway) or
+                        </li>
+                        <li>
+                          Up to 800 EUR per month for group 2 countries (Destinations: Austria,
+                          Belgium, Germany, France, Italy, Greece, Spain, Cyprus, Netherlands,
+                          Malta, Portugal) or
+                        </li>
+                        <li>
+                          Up to 700 EUR per month for group 3 countries (Destinations: Bulgaria,
+                          Croatia, Czech Republic, Estonia, Latvia, Lithuania, Hungary, Poland,
+                          Romania, Serbia, Slovakia, Slovenia, former Yugoslav Republic of
+                          Macedonia, Turkey)
+                        </li>
+                      </ul>
+                      <ul class="font-medium">
+                        Additional Considerations:
+                      </ul>
+                      <li>
+                        Disadvantaged students receive an additional 120 EUR per month on top of
+                        this grant amount.
+                      </li>
+                      <li>
+                        If students already receive financial support by other programs or
+                        organisations, they can receive a top-up up to 100 EUR above the maximum
+                        rate of the country of the host institution.
+                      </li>
                     </div>
 
                     <div v-if="selectedIndex === 1" class="page AQT CostumCard p-8">
@@ -296,7 +326,11 @@ p {
 }
 ul {
   @apply list-disc
- ml-8;
+ ml-8 mb-2;
+}
+li {
+  @apply list-disc
+ ml-9 mb-0.5;
 }
 .textblock div {
   @apply mb-4;
