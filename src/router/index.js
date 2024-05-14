@@ -18,9 +18,9 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-      path: '/accords',
-      name: 'accords',
-      component: () => import('../views/AccordsView.vue')
+      path: '/accordion',
+      name: 'accordion',
+      component: () => import('../views/AccordionsView.vue')
     }
   ]
 });
