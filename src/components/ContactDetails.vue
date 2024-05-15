@@ -227,55 +227,56 @@ const contactDetails = ref([
 ]);
 </script>
 
-<style scoped>
-h1 {
+<style>
+
+.contactDetails h1 {
   @apply text-5xl font-bold text-gray-800
  my-6;
 }
-h2 {
+.contactDetails h2 {
   @apply text-3xl font-bold text-gray-800
  mb-4;
 }
-h3 {
+.contactDetails h3 {
   @apply text-2xl font-bold text-gray-800
  
  mb-1.5;
 }
 
-.cards > * {
+.contactDetails .cards > * {
   @apply h-40
  shadow
  p-6;
 }
-.logos {
+.contactDetails .logos {
   @apply mt-12
  flex flex-wrap items-center gap-8;
 }
-.affiliated {
+.contactDetails .affiliated {
   @apply bg-gray-100 mt-12 p-10;
 }
-.logos img {
+.contactDetails .logos img {
   max-height: 200px;
   max-width: 300px;
 }
-.textblock {
+.contactDetails .textblock {
   @apply h8:columns-2
  k12:columns-3
  mb-20;
 }
-ul {
+.contactDetails ul {
   @apply list-disc
  ml-8;
 }
-.textblock div {
+.contactDetails .textblock div {
   @apply mb-4;
 }
-em {
+.contactDetails em {
   @apply font-black
  tracking-tight
  not-italic;
 }
-a {
+.contactDetails a {
   @apply text-diversity/80
  hover:text-diversity
  transition-colors
