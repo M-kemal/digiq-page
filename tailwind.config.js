@@ -53,7 +53,16 @@ export default {
         firstColor: '#d8ab4e',
         secondColor: '#040404',
         firstColor2: '#3d3d3f',
-        costumWhite: 'rgb(252 254 255)'
+        costumWhite: 'rgb(252 254 255)',
+        accordGreen: '#708b12',
+        accordDarkGreen: '#005042',
+        accordDarkBlue: '#00384f',
+        accordLightBlue: '#006f98',
+        accordIndigo: '#164194',
+        accordBrown: '#510e33',
+        accordPink: '#8e2f88',
+        accordBrownLight: '#790920',
+        accordBg: '#f5f5f5'
       },
       keyframes: {
         wiggle: {
