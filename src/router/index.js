@@ -21,6 +21,11 @@ const router = createRouter({
       path: '/accordion',
       name: 'accordion',
       component: () => import('../views/AccordionsView.vue')
+    },
+    {
+      path: '/student',
+      name: 'student',
+      component: () => import('../components/StudentList.vue')
     }
   ]
 });
