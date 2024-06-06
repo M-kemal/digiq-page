@@ -20,7 +20,7 @@ const programs = ref([
     name: 'Quantum Technology European Program (QTEP)',
     university: 'UNISTRA',
     website:
-      'https://physique-ingenierie.unistra.fr/formation/nos-diplomes/master-physique-parcours-quantum-technologies-european-program'
+      'https://physique-ingenierie.unistra.fr/formations/masters/physique/quantum-technologies-european-program-qtep'
   },
   {
     name: 'Engineering Physics',
@@ -30,22 +30,24 @@ const programs = ref([
   {
     name: 'Quantum Technology',
     university: 'RWTH Aachen',
-    website: 'https://www.rwth-aachen.de'
+    website:
+      'https://www.physik.rwth-aachen.de/cms/physik/studium/im-studium/master-s-program-physics/~dlxbl/quanten-technologie/?lidx=1'
   },
   {
     name: 'Physics',
     university: 'UNIPI',
-    website: 'https://www.unipi.it'
+    website: 'https://www.df.unipi.it/didattica/en/masters-degree/master-2/'
   },
   {
     name: 'ICFP Master',
     university: 'ENS',
-    website: 'https://www.ens.fr'
+    website: 'https://www.phys.ens.fr/en/formations/master-icfp'
   },
   {
     name: 'Quantum Information Master',
     university: 'SU',
-    website: 'https://qics.sorbonne-universite.fr'
+    website:
+      'https://qics.sorbonne-universite.fr/second-year-joint-master-program-quantum-information-physics'
   },
   {
     name: 'QuOM',
@@ -60,22 +62,24 @@ const programs = ref([
   {
     name: 'M1 General Physics Master',
     university: 'SU',
-    website: 'https://sciences.sorbonne-universite.fr'
+    website:
+      'https://sciences.sorbonne-universite.fr/formation-sciences/offre-de-formation/masters/master-physique-fondamentale-et-applications'
   },
   {
     name: 'Nano-phot',
     university: 'UTT',
-    website: 'https://utt.fr'
+    website: 'https://nano-phot.utt.fr/'
   },
   {
     name: 'Quantum Technologies',
     university: 'CTU',
-    website: 'https://physics.fjfi.cvut.cz'
+    website: 'https://physics.fjfi.cvut.cz/index.php/en/study/quantum-technologies'
   },
   {
     name: 'Quantum Informatics',
     university: 'CTU',
-    website: 'https://cvut.cz'
+    website:
+      'https://aktualne.cvut.cz/zpravy-z-medii/20221102-na-cvut-bude-novy-magistersky-studijni-program-kvantova-informatika'
   }
 ]);
 </script>
